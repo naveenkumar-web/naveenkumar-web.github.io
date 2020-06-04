@@ -1,0 +1,18 @@
+(Please be aware of the license before downloading- some people release their work under an open/permissive license whereas others impose copyright restrictions, and you’re breaking the law if you violate copyright).
+
+    Create a directory/folder where you want to manage your site. I created mine in Documents/myWork/projects/Portfolio.
+    After doing so, launch your terminal/command prompt and clone your remote/online repository to your local machine (in the directory that you created) by running the following command;
+
+ git clone https://github.com/brianmwevi/brianmwevi.github.io.git
+
+NB: Remember to replace the URL with your own.
+
+6. Copy the contents of your downloaded template into the cloned repository directory. Make sure the index.html file is at the root of this directory.
+
+7. Change directory (cd) into the cloned repository and run the following commands respectively pressing enter after each
+
+git add -Agit commit -m “Initial Commit”git push origin master
+
+Enter the username and password when prompted after running the last command.
+
+8. Navigate to http://naveenm.github.io (http://naveenm.github.io) to see your newly created online portfolio.
