@@ -48,6 +48,15 @@
     <link href="css/style.css" id="switch_style" rel="stylesheet">
     <!--TOGGLE-->
     <link href="toggle/toggle.css" rel="stylesheet">
+    <style type="text/css"> 
+        #myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 200px;
+}
+    </style>
 </head>
 <body>
 
@@ -109,7 +118,11 @@
     </nav>
 
     <!--HEADER BACKGROUND-->
-    <div class="header-background section"></div>
+    <div class="header-background section">
+    <video autoplay muted loop id="myVideo">
+ <source src="images/v1.mp4" type="video/mp4">
+</video>  
+    </div>
 
 </header>
 
